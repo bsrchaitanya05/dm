@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(120deg, orange, green, purple);
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.counter-section {
+    margin: 20px 0;
+}
+
+#counter {
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#incrementBtn {
+    background-color: green;
+    color: white;
+}
+
+#resetBtn {
+    background-color: red;
+    color: white;
+}
+
+.history-section, .total-section {
+    margin-top: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+}
+
+#totalResetBtn {
+    display: none;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    font-size: 0.8em;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+
+#totalResetBtn.hidden {
+    display: none;
+}
+
+#totalResetBtn.visible {
+    display: inline-block;
+}
